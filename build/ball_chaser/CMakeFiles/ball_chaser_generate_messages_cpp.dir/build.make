@@ -61,7 +61,7 @@ ball_chaser/CMakeFiles/ball_chaser_generate_messages_cpp: /home/robond/catkin_ws
 /home/robond/catkin_ws/devel/include/ball_chaser/DriveToTarget.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/robond/catkin_ws/devel/include/ball_chaser/DriveToTarget.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/robond/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ball_chaser/DriveToTarget.srv"
-	cd /home/robond/catkin_ws/build/ball_chaser && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/robond/catkin_ws/src/ball_chaser/srv/DriveToTarget.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ball_chaser -o /home/robond/catkin_ws/devel/include/ball_chaser -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/robond/catkin_ws/src/ball_chaser && /home/robond/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/robond/catkin_ws/src/ball_chaser/srv/DriveToTarget.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ball_chaser -o /home/robond/catkin_ws/devel/include/ball_chaser -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ball_chaser_generate_messages_cpp: ball_chaser/CMakeFiles/ball_chaser_generate_messages_cpp
 ball_chaser_generate_messages_cpp: /home/robond/catkin_ws/devel/include/ball_chaser/DriveToTarget.h
